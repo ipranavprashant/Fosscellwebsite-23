@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@font-face {
+    font-family: third-section;
+    src: url('../fonts/MonumentExtended-Regular.otf');
+}
+
+.hero-section
+{
+    margin-top: 10rem;
+    margin-left: 4rem;
+}
+
+.upper-section
+{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+font-size: 85px;
+line-height: 128px;
+    color:aliceblue;
+}
+
+.color-gradient
+{
+    background: linear-gradient(90deg, #FA709A 0%, #FEE140 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+
+}
+
+.second-section{
+    margin-top: 4rem;
+    margin-left:1rem;
+}
+
+.star2
+{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.third-section
+{
+    font-family: third-section;
+    margin-top: 4rem;
+    font-weight: 400;
+font-size: 27px;
+line-height: 90%;
+/* or 24px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #E09F57;
+
+}
+
+.fourth-section{
+    margin-top: 3rem;
+}
+
+.fourth-section a{
+    text-decoration: none;
+}
+
+.hero-wrap
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fifth-section
+{
+    position: absolute;
+    top:700px;
+}
+/*
+-background is lil brownish, like gradient on the top right and bottom left
+-How do we extract the oldman, like when I try to export it, it is getting exported as a wide image, as in
+there is a square around it, that makes it ugly
+-making it responsive is a chor, or can you send me a responsive layout as well, like how is it gonna behave in 
+different size devices.
+-Are we going to route through different page, or is it a single scroll website
+*/
